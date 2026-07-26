@@ -8,16 +8,24 @@ Hands-on ML projects covering regression, classification, NLP, and ensemble meth
 
 ---
 
-## 📊 Kaggle Competition Results
+## 📊 Kaggle & ML Projects
 
-| Project | Model(s) |
-|---|---|
-| [House Price Prediction](Regression/House_Price_Regression.ipynb) | Linear Regression |
-| [Titanic Survival](Regression/Titanic_Logistic_Regression.ipynb) | Logistic Regression |
-| [Gemstone Price](Regression/Gemstone_Linear_Regression.ipynb) | Linear Regression |
-| [Abalone Age](Regression/Abalone_Linear_Regression.ipynb) | Linear Regression |
+### Simple Regression & Classification
+| Project | Model(s) | Notebook Link |
+|---|---|---|
+| House Price Prediction | Linear Regression | [House_Price_Regression.ipynb](ML_Projects/Simple_Regression/House_Price_Regression.ipynb) |
+| Titanic Survival | Logistic Regression | [Titanic_Logistic_Regression.ipynb](ML_Projects/Simple_Regression/Titanic_Logistic_Regression.ipynb) |
+| Gemstone Price | Linear Regression | [Gemstone_Linear_Regression.ipynb](ML_Projects/Simple_Regression/Gemstone_Linear_Regression.ipynb) |
+| Abalone Age | Linear Regression | [Abalone_Linear_Regression.ipynb](ML_Projects/Simple_Regression/Abalone_Linear_Regression.ipynb) |
 
-> 🔗 Kaggle profile: [your-kaggle-username](https://www.kaggle.com/samratrm)
+### Student Health Risk Classification
+| Notebook | Focus / Model | Link |
+|---|---|---|
+| Exploratory Data Analysis | Comprehensive EDA & Visualizations | [Student_Health_Risk_EDA.ipynb](ML_Projects/Student_Health_Risk/Student_Health_Risk_EDA.ipynb) |
+| Logistic Regression | Linear Classification Baseline | [Student_Health_Risk_LR.ipynb](ML_Projects/Student_Health_Risk/Student_Health_Risk_LR.ipynb) |
+| Random Forest | Bagging Ensemble | [Student_Health_Risk_RF.ipynb](ML_Projects/Student_Health_Risk/Student_Health_Risk_RF.ipynb) |
+| Gradient Boosting | Boosting Ensemble | [Student_Health_Risk_GB.ipynb](ML_Projects/Student_Health_Risk/Student_Health_Risk_GB.ipynb) |
+| K-Nearest Neighbors | Distance Weighting & UMAP Map | [Student_Health_Risk_Classification.ipynb](ML_Projects/Student_Health_Risk/Student_Health_Risk_Classification.ipynb) |
 
 ---
 
@@ -40,20 +48,27 @@ Should this loan be approved? Credit-risk modeling for a lending fintech.
 
 ## 💬 NLP — Sentiment Analysis & Spam Detection
 
-| Project | Highlights |
-|---|---|
-| [IMDB Sentiment Analysis](Sentiment%20Analysis/IMBD_SA_Naive_Bayes.ipynb) | Naive Bayes with extensive word-frequency analysis and text preprocessing |
-| [Movie Reviews Classifier](Sentiment%20Analysis/Movie_Reviews_Naive_Bayes.ipynb) | Multiple NB variants (Multinomial, Bernoulli and Complementary) compared |
-| [SMS Spam Detection](Sentiment%20Analysis/SMS_Spam_Detection_Naive_Bayes.ipynb) | End-to-end spam classifier with vocabulary analysis |
+| Project | Highlights | Link |
+|---|---|---|
+| IMDB Sentiment Analysis | Naive Bayes with extensive word-frequency analysis and text preprocessing | [IMBD_SA_Naive_Bayes.ipynb](ML_Projects/Sentiment_Analysis/IMBD_SA_Naive_Bayes.ipynb) |
+| Movie Reviews Classifier | Multiple NB variants (Multinomial, Bernoulli, and Complementary) compared | [Movie_Reviews_Naive_Bayes.ipynb](ML_Projects/Sentiment_Analysis/Movie_Reviews_Naive_Bayes.ipynb) |
+| SMS Spam Detection | End-to-end spam classifier with vocabulary analysis | [SMS_Spam_Detection_Naive_Bayes.ipynb](ML_Projects/Sentiment_Analysis/SMS_Spam_Detection_Naive_Bayes.ipynb) |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── Regression/            # Kaggle competition notebooks (Linear & Logistic Regression)
-├── Sentiment Analysis/    # NLP projects using Naive Bayes
-└── Business_case_study/   # Real-world case studies with business recommendations
+.
+├── Business_case_study/          # Applied business ML case studies & datasets
+│   ├── Data/
+│   ├── LoanTap_Logistic_Regression.ipynb
+│   └── OLA_Drivers_Ensemble.ipynb
+├── ML_Projects/                  # Kaggle & ML projects categorized by domain
+│   ├── Sentiment_Analysis/       # NLP projects using Naive Bayes
+│   ├── Simple_Regression/        # Standard linear & logistic regression baselines
+│   └── Student_Health_Risk/      # Multiclass health risk suite (EDA, LR, RF, GB, KNN)
+└── README.md
 ```
 
 ---
