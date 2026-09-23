@@ -11,8 +11,8 @@ A personal vault of machine learning notes, NumPy exercises, Colab notebooks, ca
 
 **What's inside this repo?**
 
-### <img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" height="24"> [Kaggle_notebooks](Kaggle_notebooks/) ← start here
-My main portfolio: Kaggle competition entries, NLP projects, and real-world business case studies with full EDA, modeling, and business recommendations. **See the [README inside](Kaggle_notebooks/README.md) for competition scores and project highlights.**
+### <img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" height="24"> [Kaggle_projects_and_Case_Studies](Kaggle_projects_and_Case_Studies/) ← start here
+My main portfolio: Kaggle competition entries, NLP projects, and real-world business case studies with full EDA, modeling, and business recommendations. **See the [README inside](Kaggle_projects_and_Case_Studies/README.md) for competition scores and project highlights.**
 
 #### My Workflow
 
@@ -27,7 +27,7 @@ flowchart LR
 ```
 
 
-### 📝 [Fundamentals_notes](Fundamentals_notes/)
+### 📝 [ML_Fundamentals_notes](ML_Fundamentals_notes/)
 Personal reference notebooks on Python libraries (NumPy, Pandas, Matplotlib) and core ML concepts (Naive Bayes, regression, etc.) — my working notes as I learn, kept here for revision.
 
 ### 🗃️ [Data_Inventory](Data_Inventory/)
