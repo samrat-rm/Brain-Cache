@@ -1,0 +1,3 @@
+[submodule "ml_ops"]
+	path = ml_ops
+	url = https://github.com/samrat-rm/ml_ops.git
